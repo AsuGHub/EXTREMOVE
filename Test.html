@@ -1,4 +1,4 @@
 <script>
-window.open('https://www.youtube.com/watch?v=j5wXd3SPWIc');
-sleep(2000).then(() => function(){var video = document.getElementsByTagName('video')[0]; video.play(); video.webkitSetPresentationMode(video.webkitPresentationMode === "picture-in-picture" ? "inline" : "picture-in-picture");})()
+var bypass = window.open('https://www.youtube.com/watch?v=j5wXd3SPWIc');
+bypass.eval(function(){var video = document.getElementsByTagName('video')[0]; video.play(); video.webkitSetPresentationMode(video.webkitPresentationMode === "picture-in-picture" ? "inline" : "picture-in-picture");})())
 </script>
